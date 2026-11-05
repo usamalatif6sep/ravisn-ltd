@@ -1,0 +1,3 @@
+{
+  "tests/test_image_search.py::test_illustrative_photos_are_labelled_on_the_website": true
+}

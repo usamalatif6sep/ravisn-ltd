@@ -1,0 +1,21 @@
+{
+ "rows": {
+  "ravisn.db:items": 10547,
+  "ravisn.db:offers": 10547,
+  "ravisn.db:suppliers": 12,
+  "ravisn.db:item_images": 35922,
+  "ravisn.db:audit": 7222,
+  "storefront.db:orders": 2,
+  "storefront.db:order_items": 3,
+  "storefront.db:chats": 2,
+  "storefront.db:chat_messages": 30
+ },
+ "workbooks": {
+  "C:\\Users\\Hp\\Downloads\\ravisn project\\Ravisn_Ltd_Australia_Catalogue_1.xlsx": "cdeba9e4aa9a2f7b97f6cb7b4b96420b799a9a868a1cd8c35b028a8693865292",
+  "C:\\Users\\Hp\\Downloads\\ravisn project\\Ravisn_Ltd_Canada_Catalogue_1.xlsx": "feae93cdb773a40726c263cc9593ba39730dee6ccf9fc1acddcd02f1c786e392",
+  "C:\\Users\\Hp\\Downloads\\ravisn project\\Ravisn_Ltd_Germany_Catalogue_1.xlsx": "b7ecba491bbe7fcf506fb6aee650e5b1160477a2f53b69053a73d44930ddc121",
+  "C:\\Users\\Hp\\Downloads\\ravisn project\\Ravisn_Ltd_UK_Catalogue_1.xlsx": "b49be46fb75198d9bc64e10c13c83f083dea05ce0855c4bdbd6f825861801502",
+  "C:\\Users\\Hp\\Downloads\\ravisn project\\Ravisn_Ltd_USA_Catalogue_1.xlsx": "da3dd2332b14144d5908704f288a59873be1fb8c458b5c9d4f43ac00428ca559",
+  "C:\\Users\\Hp\\Downloads\\ravisn project\\Ravisn_Private_Supplier_Master_DO_NOT_SHARE.xlsx": "7312654e631fdfa87f0f4e03056eb373a47047c7532e4d28810d54fa39e5bf2f"
+ }
+}

@@ -1,0 +1,4 @@
+data/ravisn.db filter=lfs diff=lfs merge=lfs -text
+data/backups/ravisn-20261104-165857-pre-migration.db filter=lfs diff=lfs merge=lfs -text
+snapshots/v3-pre-marketplace-20261104-160202/ravisn.db filter=lfs diff=lfs merge=lfs -text
+snapshots/v4-pre-upgrade-20261104-165656/ravisn.db filter=lfs diff=lfs merge=lfs -text

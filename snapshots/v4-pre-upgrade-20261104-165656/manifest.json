@@ -1,0 +1,34 @@
+{
+ "ravisn.db": {
+  "integrity": "ok",
+  "counts": {
+   "schema_migrations": 5,
+   "suppliers": 12,
+   "items": 10547,
+   "offers": 10547,
+   "audit": 7222,
+   "item_images": 35922,
+   "order_private": 1,
+   "order_line_costs": 3
+  },
+  "migrations": [
+   "003_image_sources",
+   "004_image_search",
+   "005_orders"
+  ],
+  "user_version": 0,
+  "sha256": "3f02641cf861f13e2fdbff706e09cef10e57e858e565e2b6109d721a4d14d339"
+ },
+ "storefront.db": {
+  "integrity": "ok",
+  "counts": {
+   "orders": 2,
+   "order_items": 3,
+   "chats": 2,
+   "chat_messages": 30
+  },
+  "migrations": null,
+  "user_version": 1,
+  "sha256": "0e80ef15a784b3dc2593fd9cf3552148a2a0179f9b5372fc500f7b8a47ca2b66"
+ }
+}

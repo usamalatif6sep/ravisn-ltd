@@ -1,0 +1,218 @@
+2026-10-31 17:50:50,200 INFO root: Ravisn listening on http://127.0.0.1:47321/
+2026-10-31 17:50:50,630 INFO uvicorn.error: Started server process [16328]
+2026-10-31 17:50:50,630 INFO uvicorn.error: Waiting for application startup.
+2026-10-31 17:50:50,648 INFO uvicorn.error: Application startup complete.
+2026-10-31 17:50:50,649 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-10-31 17:55:06,784 INFO uvicorn.error: Shutting down
+2026-10-31 17:55:06,886 INFO uvicorn.error: Waiting for application shutdown.
+2026-10-31 17:55:06,886 INFO uvicorn.error: Application shutdown complete.
+2026-10-31 17:55:06,886 INFO uvicorn.error: Finished server process [16328]
+2026-10-31 17:55:54,907 INFO root: Ravisn listening on http://127.0.0.1:47321/
+2026-10-31 17:55:54,983 INFO uvicorn.error: Started server process [28220]
+2026-10-31 17:55:54,983 INFO uvicorn.error: Waiting for application startup.
+2026-10-31 17:55:54,987 INFO uvicorn.error: Application startup complete.
+2026-10-31 17:55:54,987 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-02 11:37:31,884 INFO root: Ravisn listening on http://127.0.0.1:47321/
+2026-11-02 11:37:32,368 INFO uvicorn.error: Started server process [25688]
+2026-11-02 11:37:32,368 INFO uvicorn.error: Waiting for application startup.
+2026-11-02 11:37:32,392 INFO uvicorn.error: Application startup complete.
+2026-11-02 11:37:32,393 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-02 11:46:02,808 INFO uvicorn.error: Shutting down
+2026-11-02 11:46:02,917 INFO uvicorn.error: Waiting for application shutdown.
+2026-11-02 11:46:02,917 INFO uvicorn.error: Application shutdown complete.
+2026-11-02 11:46:02,917 INFO uvicorn.error: Finished server process [25688]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Hp\Ravisn\app\backend\ravisn\__main__.py", line 132, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\Hp\Ravisn\app\backend\ravisn\__main__.py", line 127, in main
+    serve(open_browser=not args.serve)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hp\Ravisn\app\backend\ravisn\__main__.py", line 72, in serve
+    from .api import create_app
+  File "C:\Users\Hp\Ravisn\app\backend\ravisn\api.py", line 13, in <module>
+    from . import __version__, auth, backup, config, db, exporter, images, issues, publishing, service
+ImportError: cannot import name 'images' from 'ravisn' (C:\Users\Hp\Ravisn\app\backend\ravisn\__init__.py)
+2026-11-02 16:14:39,427 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-02 16:14:39,858 INFO uvicorn.error: Started server process [29332]
+2026-11-02 16:14:39,858 INFO uvicorn.error: Waiting for application startup.
+2026-11-02 16:14:39,858 INFO uvicorn.error: Started server process [29332]
+2026-11-02 16:14:39,858 INFO uvicorn.error: Waiting for application startup.
+2026-11-02 16:14:39,873 INFO uvicorn.error: Application startup complete.
+2026-11-02 16:14:39,873 INFO uvicorn.error: Application startup complete.
+2026-11-02 16:14:39,875 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-02 16:14:39,875 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-02 16:45:29,122 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-02 16:45:29,197 INFO uvicorn.error: Started server process [100]
+2026-11-02 16:45:29,198 INFO uvicorn.error: Waiting for application startup.
+2026-11-02 16:45:29,198 INFO uvicorn.error: Started server process [100]
+2026-11-02 16:45:29,199 INFO uvicorn.error: Waiting for application startup.
+2026-11-02 16:45:29,202 INFO uvicorn.error: Application startup complete.
+2026-11-02 16:45:29,202 INFO uvicorn.error: Application startup complete.
+2026-11-02 16:45:29,204 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-02 16:45:29,205 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 11:08:39,084 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 11:08:39,252 INFO uvicorn.error: Started server process [6416]
+2026-11-03 11:08:39,253 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 11:08:39,253 INFO uvicorn.error: Started server process [6416]
+2026-11-03 11:08:39,253 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 11:08:39,259 INFO uvicorn.error: Application startup complete.
+2026-11-03 11:08:39,259 INFO uvicorn.error: Application startup complete.
+2026-11-03 11:08:39,260 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 11:08:39,260 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 11:09:55,893 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 11:09:55,921 INFO uvicorn.error: Started server process [14292]
+2026-11-03 11:09:55,921 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 11:09:55,921 INFO uvicorn.error: Started server process [14292]
+2026-11-03 11:09:55,921 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 11:09:55,922 INFO uvicorn.error: Application startup complete.
+2026-11-03 11:09:55,922 INFO uvicorn.error: Application startup complete.
+2026-11-03 11:09:55,923 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 11:09:55,923 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 11:14:59,981 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 11:15:00,020 INFO uvicorn.error: Started server process [7360]
+2026-11-03 11:15:00,020 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 11:15:00,021 INFO uvicorn.error: Started server process [7360]
+2026-11-03 11:15:00,021 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 11:15:00,023 INFO uvicorn.error: Application startup complete.
+2026-11-03 11:15:00,023 INFO uvicorn.error: Application startup complete.
+2026-11-03 11:15:00,024 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 11:15:00,025 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 16:19:42,134 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 16:19:42,265 INFO uvicorn.error: Started server process [22580]
+2026-11-03 16:19:42,266 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 16:19:42,266 INFO uvicorn.error: Started server process [22580]
+2026-11-03 16:19:42,267 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 16:19:42,273 INFO uvicorn.error: Application startup complete.
+2026-11-03 16:19:42,274 INFO uvicorn.error: Application startup complete.
+2026-11-03 16:19:42,276 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 16:19:42,277 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 17:31:46,158 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 17:31:46,278 INFO uvicorn.error: Started server process [21148]
+2026-11-03 17:31:46,278 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 17:31:46,278 INFO uvicorn.error: Started server process [21148]
+2026-11-03 17:31:46,278 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 17:31:46,281 INFO uvicorn.error: Application startup complete.
+2026-11-03 17:31:46,281 INFO uvicorn.error: Application startup complete.
+2026-11-03 17:31:46,282 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 17:31:46,282 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 18:16:17,670 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 18:16:17,906 INFO uvicorn.error: Started server process [10116]
+2026-11-03 18:16:17,906 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 18:16:17,906 INFO uvicorn.error: Started server process [10116]
+2026-11-03 18:16:17,906 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 18:16:17,916 INFO uvicorn.error: Application startup complete.
+2026-11-03 18:16:17,917 INFO uvicorn.error: Application startup complete.
+2026-11-03 18:16:17,917 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 18:16:17,917 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 18:30:15,789 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 18:30:15,818 INFO uvicorn.error: Started server process [28564]
+2026-11-03 18:30:15,819 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 18:30:15,819 INFO uvicorn.error: Started server process [28564]
+2026-11-03 18:30:15,819 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 18:30:15,820 INFO uvicorn.error: Application startup complete.
+2026-11-03 18:30:15,820 INFO uvicorn.error: Application startup complete.
+2026-11-03 18:30:15,820 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 18:30:15,820 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 18:33:03,239 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 18:33:03,278 INFO uvicorn.error: Started server process [23872]
+2026-11-03 18:33:03,278 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 18:33:03,279 INFO uvicorn.error: Started server process [23872]
+2026-11-03 18:33:03,279 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 18:33:03,280 INFO uvicorn.error: Application startup complete.
+2026-11-03 18:33:03,280 INFO uvicorn.error: Application startup complete.
+2026-11-03 18:33:03,281 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 18:33:03,281 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 19:25:14,035 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 19:25:14,207 INFO uvicorn.error: Started server process [24760]
+2026-11-03 19:25:14,208 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 19:25:14,208 INFO uvicorn.error: Started server process [24760]
+2026-11-03 19:25:14,209 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 19:25:14,212 INFO uvicorn.error: Application startup complete.
+2026-11-03 19:25:14,212 INFO uvicorn.error: Application startup complete.
+2026-11-03 19:25:14,214 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 19:25:14,215 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 21:11:15,303 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 21:11:15,381 INFO uvicorn.error: Started server process [21212]
+2026-11-03 21:11:15,381 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 21:11:15,382 INFO uvicorn.error: Started server process [21212]
+2026-11-03 21:11:15,382 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 21:11:15,386 INFO uvicorn.error: Application startup complete.
+2026-11-03 21:11:15,386 INFO uvicorn.error: Application startup complete.
+2026-11-03 21:11:15,388 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 21:11:15,388 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+Port 47321 is in use by another program. Close it and start Ravisn again.
+2026-11-03 21:17:16,236 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 21:17:16,267 INFO uvicorn.error: Started server process [29636]
+2026-11-03 21:17:16,267 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 21:17:16,267 INFO uvicorn.error: Started server process [29636]
+2026-11-03 21:17:16,267 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 21:17:16,269 INFO uvicorn.error: Application startup complete.
+2026-11-03 21:17:16,269 INFO uvicorn.error: Application startup complete.
+2026-11-03 21:17:16,269 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 21:17:16,270 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-03 21:21:28,347 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-03 21:21:28,378 INFO uvicorn.error: Started server process [27504]
+2026-11-03 21:21:28,378 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 21:21:28,379 INFO uvicorn.error: Started server process [27504]
+2026-11-03 21:21:28,379 INFO uvicorn.error: Waiting for application startup.
+2026-11-03 21:21:28,381 INFO uvicorn.error: Application startup complete.
+2026-11-03 21:21:28,381 INFO uvicorn.error: Application startup complete.
+2026-11-03 21:21:28,382 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-03 21:21:28,382 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-04 11:24:13,596 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-04 11:24:13,654 INFO uvicorn.error: Started server process [14204]
+2026-11-04 11:24:13,654 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 11:24:13,654 INFO uvicorn.error: Started server process [14204]
+2026-11-04 11:24:13,654 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 11:24:13,657 INFO uvicorn.error: Application startup complete.
+2026-11-04 11:24:13,657 INFO uvicorn.error: Application startup complete.
+2026-11-04 11:24:13,658 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-04 11:24:13,658 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-04 12:10:20,677 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-04 12:10:20,945 INFO uvicorn.error: Started server process [12204]
+2026-11-04 12:10:20,945 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 12:10:20,946 INFO uvicorn.error: Started server process [12204]
+2026-11-04 12:10:20,946 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 12:10:20,958 INFO uvicorn.error: Application startup complete.
+2026-11-04 12:10:20,958 INFO uvicorn.error: Application startup complete.
+2026-11-04 12:10:20,959 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-04 12:10:20,960 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-04 12:32:56,995 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-04 12:32:57,184 INFO uvicorn.error: Started server process [3484]
+2026-11-04 12:32:57,185 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 12:32:57,186 INFO uvicorn.error: Started server process [3484]
+2026-11-04 12:32:57,187 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 12:32:57,193 INFO uvicorn.error: Application startup complete.
+2026-11-04 12:32:57,194 INFO uvicorn.error: Application startup complete.
+2026-11-04 12:32:57,197 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-04 12:32:57,199 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-04 12:42:14,703 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-04 12:42:14,771 INFO uvicorn.error: Started server process [28988]
+2026-11-04 12:42:14,771 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 12:42:14,772 INFO uvicorn.error: Started server process [28988]
+2026-11-04 12:42:14,772 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 12:42:14,775 INFO uvicorn.error: Application startup complete.
+2026-11-04 12:42:14,775 INFO uvicorn.error: Application startup complete.
+2026-11-04 12:42:14,777 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-04 12:42:14,777 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-04 12:57:46,146 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-04 12:57:46,188 INFO uvicorn.error: Started server process [28384]
+2026-11-04 12:57:46,188 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 12:57:46,189 INFO uvicorn.error: Started server process [28384]
+2026-11-04 12:57:46,189 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 12:57:46,190 INFO uvicorn.error: Application startup complete.
+2026-11-04 12:57:46,190 INFO uvicorn.error: Application startup complete.
+2026-11-04 12:57:46,191 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-04 12:57:46,192 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)
+2026-11-04 16:59:04,950 INFO root: Admin panel on http://127.0.0.1:47321/admin/, public preview on http://127.0.0.1:47322/
+2026-11-04 16:59:05,391 INFO uvicorn.error: Started server process [20332]
+2026-11-04 16:59:05,391 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 16:59:05,392 INFO uvicorn.error: Started server process [20332]
+2026-11-04 16:59:05,392 INFO uvicorn.error: Waiting for application startup.
+2026-11-04 16:59:05,408 INFO uvicorn.error: Application startup complete.
+2026-11-04 16:59:05,408 INFO uvicorn.error: Application startup complete.
+2026-11-04 16:59:05,410 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47321 (Press CTRL+C to quit)
+2026-11-04 16:59:05,411 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:47322 (Press CTRL+C to quit)

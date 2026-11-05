@@ -1,0 +1,1 @@
+﻿{ "name": "ravisn-deploy", "private": true, "description": "Cloudflare Pages publishing tool, used only when the owner publishes an approved release.", "devDependencies": { "wrangler": "4.149.0" } }
